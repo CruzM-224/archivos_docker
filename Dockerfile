@@ -18,9 +18,6 @@ RUN git clone https://github.com/CruzM-224/prueba2 /var/www/html
 # Copiar el archivo .env al contenedor
 COPY .env /var/www/html/
 
-# Copiar el archivo .env al contenedor
-COPY .env /var/www/html/
-
 # Configurar el directorio de trabajo dentro del contenedor
 WORKDIR /var/www/html
 
